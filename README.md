@@ -1,7 +1,7 @@
 # @eliassama/regex
 [![standard-readme compliant](https://img.shields.io/badge/@eliassama/regex-v0.0.0--alpha.1-green.svg?style=flat-square)](https://github.com/eliassama/@eliassama/regex)
 
-Thread-safe scheduled tasks
+Comprehensive and accurate regular expressions
 
 ## Table of Contents
 
