@@ -66,7 +66,7 @@ const TestCase = [
 
 for (const testCase of TestCase) {
   for (const rg of testCase.match) {
-    test(`date-time regex ，testCase：${testCase.case}, regex: ${rg}`, () => {
+    test(`file-path regex ，testCase：${testCase.case}, regex: ${rg}`, () => {
       expect(regex[rg].test(testCase.case)).toBe(true);
     });
   }
