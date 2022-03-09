@@ -29,75 +29,51 @@ const {
 const TestCase = [
   {
     case: '2021-01-02 11:59:59',
-    match: [
-      DateTime24, DateTime12
-    ],
+    match: [DateTime24, DateTime12],
   },
   {
     case: '2021-01-02 00:00:00',
-    match: [
-      DateTime24, DateTime12
-    ],
+    match: [DateTime24, DateTime12],
   },
   {
     case: '2021-01-02 23:00:00',
-    match: [
-      DateTime24
-    ],
+    match: [DateTime24],
   },
   {
     case: '2021-01-02',
-    match: [
-      Date
-    ],
+    match: [Date],
   },
   {
     case: '2021-01',
-    match: [
-      YearMonth
-    ],
+    match: [YearMonth],
   },
   {
     case: '01-01',
-    match: [
-      MonthDay
-    ],
+    match: [MonthDay],
   },
   {
     case: '11:59:59',
-    match: [
-      Time24, Time12
-    ],
+    match: [Time24, Time12],
   },
   {
     case: '21:59:59',
-    match: [
-      Time24
-    ],
+    match: [Time24],
   },
   {
     case: '11:59',
-    match: [
-      HmTime24, HmTime12
-    ],
+    match: [HmTime24, HmTime12],
   },
   {
     case: '12:59',
-    match: [
-      HmTime24
-    ],
+    match: [HmTime24],
   },
   {
     case: '00:00',
-    match: [
-      MsTime
-    ],
+    match: [MsTime],
   },
   {
     case: '59:59',
-    match: [
-      MsTime
-    ],
+    match: [MsTime],
   },
 ];
 

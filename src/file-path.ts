@@ -1,18 +1,10 @@
-export const video =
+export const videoFile =
   /\.(mp4|ts|mov|mxf|mpg|flv|wmv|avi|m4v|f4v|mpeg|3gp|asf|mkv)$/i;
 
-export const music =
+export const musicFile =
   /\.(mp3|ogg|wav|wma|ape|flac|aac|ac3|mmf|amr|m4a|m4r|wv|mp2)$/i;
 
-export const image = /\.(gif|png|jpg|jpeg|webp)$/i;
-
-export const linuxPath = /^\/(?:[^/]+\/)*$/;
-
-export const linuxFile = /^\/(?:[^/]+\/)*[^/]+$/;
-
-export const windowsPath = /^[a-zA-Z]:\\(?:\w+\\?)*$/;
-
-export const windowsFile = /^[a-zA-Z]:\\(?:\w+\\)*\w+\.\w+$/;
+export const imageFile = /\.(gif|png|jpg|jpeg|webp)$/i;
 
 export const execFile = /\.(apk|aab|app|pkg|dmg|exe|bat|msi|sh)$/i;
 
