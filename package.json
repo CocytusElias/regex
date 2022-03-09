@@ -1,6 +1,6 @@
 {
   "name": "@eliassama/regex",
-  "version": "0.0.0-alpha.1",
+  "version": "1.0.0",
   "description": "Comprehensive and accurate regular expressions",
   "main": "index.js",
   "types": "index.d.ts",
