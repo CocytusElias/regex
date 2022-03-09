@@ -4,9 +4,7 @@ enum FinancialRegex {
   BankCardId = 'bankCardId',
 }
 
-const {
-  BankCardId,
-} = FinancialRegex;
+const { BankCardId } = FinancialRegex;
 
 const TestCase = [
   {

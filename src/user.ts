@@ -1,31 +1,28 @@
-export const cnName = /^(?:[\u4e00-\u9fa5·]{2,16})$/;
+export const cnNameFull =
+  /^([\u4e00-\u9fa5]{1,16})([·•]?)([\u4e00-\u9fa5]{1,16})$/;
 
-export const enName = /(^[a-zA-Z][a-zA-Z\s]{0,20}[a-zA-Z]$)/;
+export const cnNameShort = /^[\u4e00-\u9fa5]{2,16}$/;
+
+export const enName = /^([a-zA-Z]{1,20})([\s]?)([a-zA-Z]{1,20})$/;
 
 export const email =
   /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[\d]{1,3}\.[\d]{1,3}\.[\d]{1,3}\.[\d]{1,3}\])|(([a-zA-Z\-\d]+\.)+[a-zA-Z]{2,}))$/;
 
-export const cnTelPhone = /^(?:(?:\d{3}-)?\d{8}|^(?:\d{4}-)?\d{7,8})(?:-\d+)?$/;
+export const cnTelPhone = /^(0\d{2,3})-(\d{7,8})(-\d+)?$/;
 
 export const cnStrictMobilePhone =
   /^(?:(?:\+|00)86)?1(3\d|4[5-9]|5[0-35-9]|6[2567]|7[0-8]|8\d|9[0-35-9])\d{8}$/;
 
 export const cnMobilePhone = /^(?:(?:\+|00)86)?1[3-9]\d{9}$/;
 
-export const wxId = /^[a-zA-Z][-_a-zA-Z0-9]{5,19}$/;
+export const wxId = /^[a-zA-Z][-_a-zA-Z\d]{5,19}$/;
 
-export const qqId = /^[1-9][0-9]{4,10}$/;
+export const qqId = /^[1-9][\d]{4,10}$/;
 
 export const cnPassport =
-  /(^[EeKkGgDdSsPpHh]\d{8}$)|(^(([Ee][a-fA-F])|([DdSsPp][Ee])|([Kk][Jj])|([Mm][Aa])|(1[45]))\d{7}$)/;
+  /(^[ekgdsph]\d{8}$)|(^(([e][a-f])|([dsp][e])|([k][j])|([m][a])|(1[45]))\d{7}$)/i;
 
 export const cnIdCard =
-  /^\d{6}((((((19|20)\d{2})(0[13-9]|1[012])(0[1-9]|[12]\d|30))|(((19|20)\d{2})(0[13578]|1[02])31)|((19|20)\d{2})02(0[1-9]|1\d|2[0-8])|((((19|20)([13579][26]|[2468][048]|0[48]))|(2000))0229))\d{3})|((((\d{2})(0[13-9]|1[012])(0[1-9]|[12]\d|30))|((\d{2})(0[13578]|1[02])31)|((\d{2})02(0[1-9]|1\d|2[0-8]))|(([13579][26]|[2468][048]|0[048])0229))\d{2}))(\d|X|x)$/;
-
-export const cnIdCard1 =
-  /^[1-9]\d{7}(?:0\d|10|11|12)(?:0[1-9]|[1-2][\d]|30|31)\d{3}$/;
-
-export const cnIdCard2 =
   /^[1-9]\d{5}(?:18|19|20)\d{2}(?:0[1-9]|10|11|12)(?:0[1-9]|[1-2]\d|30|31)\d{3}[\dXx]$/;
 
 export const cnLpnNer =
