@@ -1,6 +1,6 @@
 import * as regex from '../lib';
 
-enum DateTimeRegex {
+enum FilePathTestRegex {
   VideoFile = 'videoFile',
   MusicFile = 'musicFile',
   ImageFile = 'imageFile',
@@ -22,7 +22,7 @@ const {
   WindowsExecFile,
   LinuxExecFile,
   CmpFile,
-} = DateTimeRegex;
+} = FilePathTestRegex;
 
 const TestCase = [
   {

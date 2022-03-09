@@ -1,12 +1,12 @@
 import * as regex from '../lib';
 
-enum DateTimeRegex {
+enum FinancialRegex {
   BankCardId = 'bankCardId',
 }
 
 const {
   BankCardId,
-} = DateTimeRegex;
+} = FinancialRegex;
 
 const TestCase = [
   {
