@@ -12,7 +12,7 @@ enum UserRegex {
   QQId = 'qqId',
   CnPassport = 'cnPassport',
   CnIdCard = 'cnIdCard',
-  CnLpnNer = 'cnLpnNer',
+  CnLprNer = 'cnLprNer',
   CnLprFe = 'cnLprFe',
   CnLpr = 'cnLpr',
   ZipCode = 'zipCode',
@@ -30,7 +30,7 @@ const {
   QQId,
   CnPassport,
   CnIdCard,
-  CnLpnNer,
+  CnLprNer,
   CnLprFe,
   CnLpr,
   ZipCode,
@@ -79,7 +79,7 @@ const TestCase = [
   },
   {
     case: '浙AKW973',
-    match: [CnLpnNer, CnLpr],
+    match: [CnLprNer, CnLpr],
   },
   {
     case: '浙AVC856',
