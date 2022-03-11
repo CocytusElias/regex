@@ -2,8 +2,8 @@
   "name": "@eliassama/regex",
   "version": "1.0.0",
   "description": "Comprehensive and accurate regular expressions",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "format": "prettier --write src/**.ts",
     "lint": "eslint src/",
