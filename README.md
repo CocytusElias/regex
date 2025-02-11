@@ -398,4 +398,4 @@ import * as regex from '@eliassama/regex'
     ```
 
 ## Maintainers
-[@elias](https://github.com/eliassama/@eliassama/regex)
+[@CocytusElias](https://github.com/CocytusElias)
